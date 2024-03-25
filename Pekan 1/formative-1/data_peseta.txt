@@ -1,0 +1,11 @@
+Data Peserta Bootcamp Digital Skill - Golang Backend Development
+1. Nama: Muhammad Zakki Islami
+2. Email: mzislami05@gmail.com
+3. Sistem Operasi yang digunakan: windows
+4. Akun Github: https://github.com/zakkiislamii
+5. Akun Telegram: @zakkiislami
+6. Role Pekerjaan (BE/FE/DEVOPS/MAHASISWA) : MAHASISWA
+7. Umur: 19
+8. Pernah menggunakan Go? : Pernah
+9. Bahasa Pemrograman yg pernah dipelajari: Java, HTML/CSS, NodeJs, PHP, Golang, JavaScript, Python
+10. Pernah membuat REST API? : Pernah
