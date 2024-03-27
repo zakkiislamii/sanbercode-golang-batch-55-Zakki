@@ -56,5 +56,4 @@ func main() {
 	angkaString := strconv.Itoa(angka)
 	fmt.Print("Jawaban soal 5: ")
 	fmt.Println("\"" + kalimatReplace + "\" -" + angkaString)
-
 }
