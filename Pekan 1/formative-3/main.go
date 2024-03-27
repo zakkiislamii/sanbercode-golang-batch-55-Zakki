@@ -32,22 +32,22 @@ func main() {
 	var indeksJohn, indeksDoe string
 	if nilaiJohn >= 80 {
 		indeksJohn = "A"
-	} else if nilaiJohn >= 70 {
+	} else if nilaiJohn >= 70 && nilaiJohn < 80 {
 		indeksJohn = "B"
-	} else if nilaiJohn >= 60 {
+	} else if nilaiJohn >= 60 && nilaiJohn < 70 {
 		indeksJohn = "C"
-	} else if nilaiJohn >= 50 {
+	} else if nilaiJohn >= 50 && nilaiJohn < 60 {
 		indeksJohn = "D"
 	} else {
 		indeksJohn = "E"
 	}
 	if nilaiDoe >= 80 {
 		indeksDoe = "A"
-	} else if nilaiDoe >= 70 {
+	} else if nilaiDoe >= 70 && nilaiDoe < 80 {
 		indeksDoe = "B"
-	} else if nilaiDoe >= 60 {
+	} else if nilaiDoe >= 60 && nilaiDoe < 70 {
 		indeksDoe = "C"
-	} else if nilaiDoe >= 50 {
+	} else if nilaiDoe >= 50 && nilaiDoe < 60 {
 		indeksDoe = "D"
 	} else {
 		indeksDoe = "E"
@@ -96,14 +96,14 @@ func main() {
 	var generasi string
 	if tahun >= 1944 && tahun <= 1964 {
 		generasi = "Baby boomer"
-	} else if tahun >= 1965 && tahun <= 1964 {
+	} else if tahun >= 1965 && tahun <= 1979 {
 		generasi = "Generasi X"
-	} else if tahun >= 1980 && tahun <= 1994 {
+	} else if tahun >= 1980 && tahun <= 1995 {
 		generasi = "Generasi Y (Millenials)"
 	} else if tahun >= 1995 && tahun <= 2015 {
 		generasi = "Generasi Z"
 	}
 	fmt.Println("\nJawaban soal 4")
 	fmt.Println(generasi)
-	
+
 }
