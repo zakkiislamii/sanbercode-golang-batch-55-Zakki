@@ -98,12 +98,11 @@ func main() {
 		generasi = "Baby boomer"
 	} else if tahun >= 1965 && tahun <= 1979 {
 		generasi = "Generasi X"
-	} else if tahun >= 1980 && tahun <= 1995 {
+	} else if tahun >= 1980 && tahun <= 1994 {
 		generasi = "Generasi Y (Millenials)"
 	} else if tahun >= 1995 && tahun <= 2015 {
 		generasi = "Generasi Z"
 	}
 	fmt.Println("\nJawaban soal 4")
 	fmt.Println(generasi)
-
 }
