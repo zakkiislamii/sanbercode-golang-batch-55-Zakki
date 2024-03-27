@@ -105,4 +105,5 @@ func main() {
 	}
 	fmt.Println("\nJawaban soal 4")
 	fmt.Println(generasi)
+	
 }
