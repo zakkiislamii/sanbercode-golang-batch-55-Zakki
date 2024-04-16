@@ -41,7 +41,6 @@ func cetakAngka(angka *int) {
 }
 
 // soal 4
-var phones = []string{}
 
 func tambahData(phones *[]string, data ...string) {
 	*phones = append(*phones, data...)
@@ -76,6 +75,7 @@ func main() {
 	fmt.Println()
 
 	//soal 4
+	var phones = []string{}
 	tambahData(&phones, "Xiaomi", "Asus", "IPhone", "Samsung", "Oppo", "Realme", "Vivo")
 	urutkanDanCetak(&phones)
 }
